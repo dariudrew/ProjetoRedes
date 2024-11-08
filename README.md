@@ -42,7 +42,7 @@ O Tkinter já vem instalado por padrão com o Python no Windows. Se você estive
 
 ---
 
-Agora, com o Tkinter instalado, você pode seguir os passos para rodar o servidor e o cliente descritos anteriormente.
+Agora, com o Tkinter instalado, você pode seguir os passos para rodar o servidor e o cliente.
 
 ### Passo 1: Executar o Servidor
 
