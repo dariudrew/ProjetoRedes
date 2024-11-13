@@ -11,9 +11,43 @@ Para executar este projeto, você precisará do Python instalado na versão 3.x 
 - **Servidor (servidor.py):** código responsável por gerenciar as conexões e distribuir mensagens para todos os clientes conectados.
 - **Cliente (cliente.py):** código que executa a interface gráfica para o usuário, permitindo o envio e recebimento de mensagens no chat.
 
-## Como Executar
 
-Para que a aplicação funcione, é necessário instalar o Tkinter, que é o módulo de interface gráfica do Python. 
+## Como Executar 
+
+Para que a aplicação funcione, é necessário instalar o Tkinter, que é o módulo de interface gráfica do Python. No entanto, se preferir, você pode usar os executáveis já preparados para Windows e Linux nas pastas **Executaveis_Windows** e **Executaveis_Linux**.
+
+### Usando os Executáveis
+
+Se você não quiser instalar o Python ou configurar o ambiente manualmente, você pode usar os executáveis pré-compilados. Siga os passos abaixo:
+
+#### Em Sistemas Windows
+
+1. Navegue até a pasta **Executaveis_Windows**.
+2. Execute o arquivo `servidor.exe` para iniciar o servidor.
+3. Em outro terminal, execute o arquivo `cliente.exe` para iniciar o cliente.
+4. A interface gráfica será aberta, e você pode começar a conversar.
+
+#### Em Sistemas Linux
+
+1. Navegue até a pasta **Executaveis_Linux**.
+2. Torne o arquivo executável com o comando:
+
+   ```bash
+   chmod +x servidor
+   chmod +x cliente
+   ```
+
+3. Execute o servidor com:
+
+   ```bash
+   ./servidor
+   ```
+
+4. Em outro terminal, execute o cliente com:
+
+   ```bash
+   ./cliente
+   ```
 
 ### Instalação do Tkinter
 
